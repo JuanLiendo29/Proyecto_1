@@ -1,0 +1,79 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Pagina</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        
+    </head>
+    <body>
+        <div class="login-box-body">
+            <p class="login-box-msg">Ingresa tus datos para iniciar session</p>
+            
+            <div class="form-group has-feedback">
+                <input id="usuario" type="text" class="form-control" placeholder="Usuario, Id, NumeroControl">
+                <span class="glyphicon glyphicon-user form-control-feedback"></span>
+            </div>
+            <div class="form-group has-feedback">
+                <input id="password" type="password" class="form-control" placeholder="Contraseña">
+                <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+            </div> 
+            <div class="row">                    
+                    <div class="col-md-12 ">
+                        <button id="enviar" class="btn btn-primary btn-block btn-flat">Iniciar</button>
+                    </div>
+            </div>
+            <div class="row">                    
+                <div class="col-md-12 ">
+                    <a href="/Registrar" class="btn btn-block btn-success">Registrarse</a>
+                </div>
+        </div> -->
+            <!-- /.social-auth-links -->
+            <!-- <br>
+        </div> -->
+        <!-- /.login-box-body -->
+        <!-- {% include "includes/_message.html "%}
+    </body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Pagina</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand">Proyecto 1</a>
+              </div>
+          
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li><a href="/Registrar">Registrarse <span class="sr-only">(current)</span></a></li>
+                  <li><a href="/Login">Login</a></li>
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+          
+        <!-- /.login-box-body -->
+        <!-- {% include "includes/_message.html "%} -->
+        {% block body%}
+        {% endblock %}
+    </body>
+</html>

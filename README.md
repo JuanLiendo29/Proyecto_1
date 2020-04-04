@@ -15,3 +15,6 @@ El archivo config para poder usar la base de datos
 Tanto el archivo de login y user podrimos decir que son archivos volatiles porque cuando se logea y registra se escribe codigo en ellos pero una vez que terminas este se borra
 
 Y el archivo importar es para subir los libros a la base de datos
+
+Y en el archivo app.py importo muchas "herramientas" ya que al momento de estar viendo videos, varios usaban unas cosas y otros otras asi
+que mezcle varios pero no todas las uso, pero la mayoria si

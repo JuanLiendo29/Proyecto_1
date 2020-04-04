@@ -1,0 +1,35 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block styles %}
+{{super()}}
+<link rel="stylesheet" href="{{url_for('.static', filename='signin.css')}}">
+{% endblock %}
+
+{% block content %}
+
+<table style="width:100%">
+    <tr>
+      <th>Codigo</th>
+      <th>Titulo</th>
+      <th>Autor</th>
+      <th>Año</th>
+    </tr>
+
+    {% for libro in libro_autor %}
+    <!-- {{ elemento }} -->
+    
+        <tr>
+          <th>{{libro.isbn}}</th>
+          <th>{{libro.title}}</th>
+          <th>{{libro.author}}</th>
+          <th>{{libro.year}}</th>
+        </tr>
+
+    {% endfor %}
+</table>
+
+<a class="btn btn-sm btn-danger" href="/busqueda" type="button">Regresar</a>
+{% endblock %}
+
+<!-- <h1>{{libro_autor}}</h1> -->
